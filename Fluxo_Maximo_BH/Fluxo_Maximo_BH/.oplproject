@@ -6,18 +6,22 @@
 			</ref>
 		</config>
 		<config default="false" name="Configura&amp;#231;&amp;#227;o2" category="opl">
-			<ref name="grafo_corte_s_2.mod" type="model">
+			<ref name="grafo_corte_6_8.mod" type="model">
 			</ref>
 		</config>
 		<config default="false" name="Configura&amp;#231;&amp;#227;o3" category="opl">
-			<ref name="grafo_corte_4_3.mod" type="model">
+			<ref name="grafo_corte_3_6.mod" type="model">
 			</ref>
 		</config>
 		<config default="false" name="Configura&amp;#231;&amp;#227;o4" category="opl">
-			<ref name="grafo_corte_2_3.mod" type="model">
+			<ref name="grafo_corte_15_11.mod" type="model">
 			</ref>
 		</config>
 		<config default="false" name="Configura&amp;#231;&amp;#227;o5" category="opl">
+			<ref name="grafo_corte_4_5.mod" type="model">
+			</ref>
+		</config>
+		<config default="true" name="Configura&amp;#231;&amp;#227;o6" category="opl">
 			<ref name="grafo_corte_3_6.mod" type="model">
 			</ref>
 		</config>

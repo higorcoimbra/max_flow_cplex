@@ -1,7 +1,7 @@
 /*********************************************
  * OPL 12.7.1.0 Model
- * Author: aluno
- * Creation Date: 01/12/2017 at 16:45:02
+ * Author: higor
+ * Creation Date: 04/12/2017 at 01:10:55
  *********************************************/
 dvar float+ y;
 dvar float+ xs1;
@@ -11,7 +11,6 @@ dvar float+ x15;
 dvar float+ x41;
 dvar float+ x23;
 dvar float+ x34;
-dvar float+ x36;
 dvar float+ x43;
 dvar float+ x57;
 dvar float+ x69;
@@ -32,13 +31,13 @@ subject to {
   V2:
   	x23 - xs2 == 0;
   V3:
-    (x34 + x36) - x23 == 0;
+    (x34 ) - x23 == 0;
   V4:
   	(x41 + x43) - (x14 + x34) == 0;
   V5:
   	x57 - x15 == 0;
   V6:
-  	x69 - x36 == 0;
+  	x69  == 0;
   V7:
   	(x78 + x7t) - x57 == 0;
   V8:
@@ -63,8 +62,6 @@ subject to {
   	0 <= x23 <= 2913;
   x34_capacity:
   	0 <= x34 <= 1569;
-  x36_capacity:
-  	0 <= x36 <= 1875;
   x43_capacity:
   	0 <= x43 <= 843;
   x57_capacity:
@@ -83,4 +80,3 @@ subject to {
   	0 <= x10t <= 1149;
   
 }
-
